@@ -23,7 +23,7 @@ default["rackbox"]["default_config"]["passenger_runit"]["rack_env"] = "productio
 default["rackbox"]["default_config"]["passenger_runit"]["max_pool_size"] = 6
 default["rackbox"]["default_config"]["passenger_runit"]["min_instances"] = 1
 default["rackbox"]["default_config"]["passenger_runit"]["spawn_method"] = "smart-lv2"
-default["rackbox"]["default_config"]["passenger_runit"]["host"] = "localhost"
+default["rackbox"]["default_config"]["passenger_runit"]["host"] = "0.0.0.0"
 
 default["rackbox"]["apps"]["unicorn"] = []
 default["rackbox"]["apps"]["passenger"] = []
