@@ -14,6 +14,7 @@ recipe "rackbox::passenger", "setup `passenger` apps, if any."
 
 supports 'ubuntu'
 supports 'debian'
+supports 'centos'
 
 depends 'appbox'
 depends 'rbenv'
